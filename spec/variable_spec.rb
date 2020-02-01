@@ -7,5 +7,6 @@ describe "./variable.rb" do
     expect(greeting).to eq("Hello World")
 
   end
-puts greeting = "Hello World"
+ greeting = "Hello World"
+puts greeting
 end
